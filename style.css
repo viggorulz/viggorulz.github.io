@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: #77aca2;
+    background-color: #fff;
 }
 
 nav {
@@ -13,12 +13,13 @@ nav {
 .nav__logo h1 {
     color: #e6d8b6;
     margin: 0;
-    width: 150px;
+    width: 250px;
     height: 12vh;
     display: flex;
     align-items: center;
     padding-left: 50%;
     font-family: montserrat;
+    font-size: 30px;
 }
 
 .nav__logo h1:hover{
@@ -42,20 +43,49 @@ li {
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    /* position: relative; */
 }
 
 .grid > * {
     text-align: center;
 }
 
+
 .bild img {
     width: 400px;
     margin: 50px;
-    border-radius: 50%;
+    border-radius: 24px;
 }
 
-.bild2 img {
-    width: 400px;
-    margin: 50px;
-    border-radius: 50%;
+.bild {
+    display: grid;
+    position: relative;
+    transition: color 1s;
+    position: relative;
+    overflow: hidden;
+
+}
+
+
+.bild_text {
+    background-color: #232323aa;
+    color: #fff;
+    position: absolute;
+    top: 100%;
+    border-radius: 24px;
+    padding: 10px;
+    left: 110px;
+    right: 110px;
+    top: 100%;
+    bottom: 100px;
+    transition: ease-in-out 500ms;
+
+
+}
+
+.bild:hover .bild_text {
+    top: 50px;
+    left: 110px;
+    right: 110px;
+    bottom: 55px;
 }
