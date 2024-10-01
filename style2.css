@@ -1,22 +1,54 @@
-body{
-    background-color: #fff;
+body {
     margin: 0;
-    padding: 0;
+    background-color: #fff;
+    background-image: url(https://marketplace.canva.com/EAGEncMdbEM/1/0/1600w/canva-beige-brown-simple-abstract-desktop-wallpaper-pE_Ruap0PiI.jpg);
+    padding-top: 100px;
 }
 
-nav{
+
+nav {
+    background-color: #031926;
     margin: 0;
-    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    top: 0;
 }
+
 
 .nav__logo h1 {
     color: #e6d8b6;
     margin: 0;
-    width: auto;
+    width: 250px;
     height: 12vh;
     display: flex;
     align-items: center;
+    padding-left: 50%;
     font-family: montserrat;
-    justify-content: center;
-    background-color: #031926;
-}   
+    font-size: 30px;
+    transition: all 250ms ease-in-out;
+}
+
+
+.nav__logo a{
+    text-decoration: none;
+}
+
+.nav__logo h1:hover{
+    color: #77aca2;
+}
+
+ul {
+    color: white;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    margin-right: 10%;
+}
+
+li {
+    list-style-type: none;
+    color: #e6d8b6;
+}

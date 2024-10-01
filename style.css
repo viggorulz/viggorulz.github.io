@@ -16,7 +16,7 @@ nav {
     top: 0;
 }
 
-.första_text{
+.welcome{
     font-size: 11px;
     padding-right: 50%;
     margin: 50px;
@@ -71,6 +71,7 @@ li {
 .grid h1{
     background-color: #232323aa;
     border-radius: 50px;
+    color: #fff;
 }
 
 .bild {
