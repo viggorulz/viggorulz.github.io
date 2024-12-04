@@ -1,0 +1,22 @@
+body{
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    margin: 0;
+    padding: 0;
+}
+
+.nav__logo h1 {
+    color: #e6d8b6;
+    margin: 0;
+    width: auto;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    font-family: montserrat;
+    justify-content: center;
+    background-color: #031926;
+}   
