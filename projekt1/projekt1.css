@@ -8,8 +8,9 @@ body {
     margin: 0;
     background-color: #fff;
     padding-top: 100px;
-    /* background-image: url(https://wallpapers.com/images/hd/white-gradient-background-1920-x-1080-xyhud3481qjd0s8s.jpg);
     overflow-x: hidden;
+    /* background-image: url(https://wallpapers.com/images/hd/white-gradient-background-1920-x-1080-xyhud3481qjd0s8s.jpg);
+    
     background: linear-gradient(-45deg, #caccd8, #bbd3c0, #cdf1ff, #bfdadd, #e6d5e2);
     background-size: 400% 400%;
     animation: bg 12s ease infinite; */
@@ -39,6 +40,17 @@ body {
     box-shadow: 3px 3px 3px #23232328;
 }
 
+.logo_bg img {
+    /* outline: 2px solid yellow; */
+    width: 38%  ;
+    transform: rotate(-40deg);
+    position: absolute;
+    bottom: 12%;
+    left: 352px;
+
+}
+
+
 .picture{
     margin: 10px;
 }
@@ -58,7 +70,7 @@ nav {
 
 .main-heading{
     /* background-image: url("https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014_640.jpg");  */
-    background-image: url("https://t4.ftcdn.net/jpg/08/33/77/97/360_F_833779758_wNVdVBoAUmNUgPVhSDKQ50e49e4jbTOT.jpg"); 
+    background-image: url("still-life-yoga-equipment.jpg"); 
     /* background-image: linear-gradient(rgba(255, 0, 0, 0.329), rgba(0, 0, 255, 0)), url("https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014_640.jpg");  */
     mask-image: linear-gradient(black,transparent);
     -webkit-mask-image:linear-gradient(black
@@ -98,7 +110,7 @@ nav {
 }
 
 .nav__logo h1:hover{
-    color: #95c5bc;
+    color: #ffffff;
 }
 
 ul {
@@ -128,10 +140,11 @@ li {
 }
 
 .grid h1{
-    background-color: #232323aa;
+    background-color: #23232369;
     border-radius: 50px;
     color: #fff;
     /* width: 300px; */
+    background-image: linear-gradient(90deg,white, #232323aa , white);
 }
 
 .bild {
@@ -172,7 +185,7 @@ li {
 }
 
 .bild h2{
-    background-color: rgb(160, 202, 216);
+    background-color: #e6d8b6;
     border-radius: 50px;
     font-size: 40px;
 }
@@ -190,6 +203,7 @@ li {
     padding-top: 20px;
     border: 2px solid rgba(255, 255, 255, 0.651);
     position: fixed;
+    z-index: 100;
 }
 
 /* sign-in text */
