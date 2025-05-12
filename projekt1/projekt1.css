@@ -90,6 +90,8 @@ nav {
 .main-heading h1{
     max-width: 60ch;
     padding-top: 100px;
+    color: #fff;
+    background-color: #232323aa;
 }
 
 .nav__logo h1 {
